@@ -1,0 +1,16 @@
+{
+  "name": "notion-extension-proxy",
+  "version": "1.0.0",
+  "description": "Netlify proxy for browser extension to store data in Notion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
